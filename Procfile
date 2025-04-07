@@ -1,1 +1,1 @@
-web: gunicorn GIS_Viewer.wsgi --workers 3
+web: python -m gunicorn GIS_Viewer.wsgi --log-file -
